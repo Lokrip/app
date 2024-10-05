@@ -39,7 +39,7 @@ const Post: FC<PostPorps> = async ({params}:PostPorps): Promise<JSX.Element> => 
 
     // const { id } = useParams<{ id: string }>();
     const post = await getData(params.id);
-    console.log(post) //log будет на строне сервера тоесть не будет выведен в фронтенде а будет выведен в терминали vs code
+    // console.log(post) //log будет на строне сервера тоесть не будет выведен в фронтенде а будет выведен в терминали vs code
 
     return (
         <div>
